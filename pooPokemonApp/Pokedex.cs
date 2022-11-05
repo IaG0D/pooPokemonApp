@@ -15,7 +15,7 @@ namespace pooPokemonApp {
 			get { return this.pokemons; }
 		}
 
-		private void InicializaLista() {
+		private void InicializaLista() { /*Registre pokemons aqui*/
 			this.pokemons = new List<PokemonPlus>();
 			PokemonPlus p = new PokemonPlus("Bulbasauro", "é um pokémon tipo planta...", 10);
 			this.pokemons.Add(p);
